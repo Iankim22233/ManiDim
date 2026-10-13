@@ -1,0 +1,9 @@
+{
+  "appId": "com.manidim.game",
+  "productName": "ManiDim",
+  "electronVersion": "44.7.0",
+  "directories": { "output": "release-single" },
+  "win": { "icon": "build-icon/icon.ico", "signAndEditExecutable": false, "target": ["portable", "nsis"] },
+  "portable": { "artifactName": "ManiDim-Portable-${arch}.exe" },
+  "nsis": { "oneClick": true, "perMachine": false, "artifactName": "ManiDim-Setup-${arch}.exe", "installerIcon": "build-icon/icon.ico", "uninstallerIcon": "build-icon/icon.ico", "deleteAppDataOnUninstall": false }
+}

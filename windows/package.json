@@ -1,0 +1,25 @@
+{
+  "name": "manidim",
+  "productName": "ManiDim",
+  "version": "1.0.0",
+  "description": "A fan-shaped rhythm game with tap, hold and slide notes.",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "npm run build && electron .",
+    "test": "node tests/run.mjs",
+    "package:win": "npm run build && node package-win.mjs"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "fflate": "^0.8.3"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.2",
+    "resedit": "^3.1.0"
+  },
+  "type": "module"
+}
