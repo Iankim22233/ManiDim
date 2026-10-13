@@ -1,6 +1,6 @@
 # ManiDim
 
-A fan-shaped rhythm game. Notes fly down a fan of lanes toward a hit circle, and you press the key bound to each lane as they arrive. It plays a little like DDR with rebindable keys and an osu!mania-style chart system, plus a third note type (slides) that makes you use two hands in a different way.
+A fan-shaped rhythm game.(Made with Ai) Notes fly down a fan of lanes toward a hit circle, and you press the key bound to each lane as they arrive. It plays a little like DDR with rebindable keys and an osu!mania-style chart system, plus a third note type (slides) that makes you use two hands in a different way.
 
 ![Song select](docs/screenshots/songs.png)
 
